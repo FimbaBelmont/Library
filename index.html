@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id="popup">
+        <div class="popupContent">
+            <form>
+                <section>
+                    <button type="button" id="closePopup">X</button>
+                    <fieldset>
+                        <legend>Book</legend>
+                        
+                        <ol>
+                            <li>
+                                <label for="bName">Book Name</label>
+                                <input type="text" id="bName" name="bName">
+                            </li>
+                            <li>
+                                <label for="bAuthor">Author</label>
+                                <input type="text" id="bAuthor" name="bAuthor">
+                            </li>
+                            <li>
+                                <label for="bPages">Pages</label>
+                                <input type="text" id="bPages" name="bPages">
+                            </li>
+                            <li>
+                                <p>Have you read it?</p>
+                                <input type="radio" id="yes" name="bRead" value="yes" checked>
+                                <label for="yes">Yes</label>
+                                <input type="radio" id="no" name="bRead" value="no">
+                                <label for="no">No</label>
+                            </li>
+                        </ol>
+                    </fieldset>
+                        <button type="button" id="addBook">Add</button>
+                </section>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header">
+                <div class="top">
+                    <div><img src="" alt=""><input class="searchBar"type="text"></div>
+                    <div class="topAcc">
+                        <img class="announcement" src="" alt="">
+                        <div class="topRight">
+                            <div class="accImg"></div>
+                            <div class="accName">AccName</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="headerBottom">
+                    <div class="accImg"></div>
+                    <div class="accGreet">
+                        <p>Hi there,</p>
+                        <h3 class="accName">AccName</h3>
+                    </div>
+                    <div class="buttons">
+                        <button id="new">New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
+                    </div>
+                </div>
+
+        </div>
+        
+        <div class="content" id="content">
+        
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
